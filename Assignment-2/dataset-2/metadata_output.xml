@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HDF5_Metadata>
+	<Group name="data">
+		<Attribute name="CLASS">
+			b'GROUP'
+		</Attribute>
+		<Attribute name="TITLE">
+			Empty(dtype=dtype('S1'))
+		</Attribute>
+		<Attribute name="VERSION">
+			b'1.0'
+		</Attribute>
+		<Attribute name="axis0_variety">
+			b'regular'
+		</Attribute>
+		<Attribute name="axis1_variety">
+			b'regular'
+		</Attribute>
+		<Attribute name="block0_items_variety">
+			b'regular'
+		</Attribute>
+		<Attribute name="block1_items_variety">
+			b'regular'
+		</Attribute>
+		<Attribute name="encoding">
+			b'UTF-8'
+		</Attribute>
+		<Attribute name="errors">
+			b'strict'
+		</Attribute>
+		<Attribute name="nblocks">
+			2
+		</Attribute>
+		<Attribute name="ndim">
+			2
+		</Attribute>
+		<Attribute name="pandas_type">
+			b'frame'
+		</Attribute>
+		<Attribute name="pandas_version">
+			b'0.15.2'
+		</Attribute>
+	</Group>
+	<Dataset name="data/axis0">
+		<Shape>
+			(3,)
+		</Shape>
+		<DataType>
+			|S47
+		</DataType>
+		<Attribute name="CLASS">
+			b'ARRAY'
+		</Attribute>
+		<Attribute name="FLAVOR">
+			b'numpy'
+		</Attribute>
+		<Attribute name="TITLE">
+			Empty(dtype=dtype('S1'))
+		</Attribute>
+		<Attribute name="VERSION">
+			b'2.4'
+		</Attribute>
+		<Attribute name="kind">
+			b'string'
+		</Attribute>
+		<Attribute name="name">
+			b'N.'
+		</Attribute>
+		<Attribute name="transposed">
+			1
+		</Attribute>
+	</Dataset>
+	<Dataset name="data/axis1">
+		<Shape>
+			(51,)
+		</Shape>
+		<DataType>
+			int64
+		</DataType>
+		<Attribute name="CLASS">
+			b'ARRAY'
+		</Attribute>
+		<Attribute name="FLAVOR">
+			b'numpy'
+		</Attribute>
+		<Attribute name="TITLE">
+			Empty(dtype=dtype('S1'))
+		</Attribute>
+		<Attribute name="VERSION">
+			b'2.4'
+		</Attribute>
+		<Attribute name="kind">
+			b'integer'
+		</Attribute>
+		<Attribute name="name">
+			b'N.'
+		</Attribute>
+		<Attribute name="transposed">
+			1
+		</Attribute>
+	</Dataset>
+	<Dataset name="data/block0_items">
+		<Shape>
+			(2,)
+		</Shape>
+		<DataType>
+			|S4
+		</DataType>
+		<Attribute name="CLASS">
+			b'ARRAY'
+		</Attribute>
+		<Attribute name="FLAVOR">
+			b'numpy'
+		</Attribute>
+		<Attribute name="TITLE">
+			Empty(dtype=dtype('S1'))
+		</Attribute>
+		<Attribute name="VERSION">
+			b'2.4'
+		</Attribute>
+		<Attribute name="kind">
+			b'string'
+		</Attribute>
+		<Attribute name="name">
+			b'N.'
+		</Attribute>
+		<Attribute name="transposed">
+			1
+		</Attribute>
+	</Dataset>
+	<Dataset name="data/block0_values">
+		<Shape>
+			(1,)
+		</Shape>
+		<DataType>
+			object
+		</DataType>
+		<Attribute name="CLASS">
+			b'VLARRAY'
+		</Attribute>
+		<Attribute name="PSEUDOATOM">
+			b'object'
+		</Attribute>
+		<Attribute name="TITLE">
+			Empty(dtype=dtype('S1'))
+		</Attribute>
+		<Attribute name="VERSION">
+			b'1.4'
+		</Attribute>
+		<Attribute name="transposed">
+			1
+		</Attribute>
+	</Dataset>
+	<Dataset name="data/block1_items">
+		<Shape>
+			(1,)
+		</Shape>
+		<DataType>
+			|S47
+		</DataType>
+		<Attribute name="CLASS">
+			b'ARRAY'
+		</Attribute>
+		<Attribute name="FLAVOR">
+			b'numpy'
+		</Attribute>
+		<Attribute name="TITLE">
+			Empty(dtype=dtype('S1'))
+		</Attribute>
+		<Attribute name="VERSION">
+			b'2.4'
+		</Attribute>
+		<Attribute name="kind">
+			b'string'
+		</Attribute>
+		<Attribute name="name">
+			b'N.'
+		</Attribute>
+		<Attribute name="transposed">
+			1
+		</Attribute>
+	</Dataset>
+	<Dataset name="data/block1_values">
+		<Shape>
+			(51, 1)
+		</Shape>
+		<DataType>
+			int64
+		</DataType>
+		<Attribute name="CLASS">
+			b'ARRAY'
+		</Attribute>
+		<Attribute name="FLAVOR">
+			b'numpy'
+		</Attribute>
+		<Attribute name="TITLE">
+			Empty(dtype=dtype('S1'))
+		</Attribute>
+		<Attribute name="VERSION">
+			b'2.4'
+		</Attribute>
+		<Attribute name="transposed">
+			1
+		</Attribute>
+	</Dataset>
+</HDF5_Metadata>

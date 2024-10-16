@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descriptive-metadata xmlns:xsi="https://www.w3.org/TR/xmlschema-1/"
+                      xsi:noNamespaceSchemaLocation="descriptive-metadata-schema.xsd">
+  <dataset-info>
+    <title>Medical LLaMa performance benchmark</title>
+    <identifier>http://medi_llama_performance_benchmark.com/data/8713572</identifier>
+    <description>The dataset evaluates and compares the performance of LLAMA-based medical LLMs, focusing on the impact of model architecture and training data on key performance metrics.</description>
+    <keywords>
+      <keyword>medical llm</keyword>
+      <keyword>large vision language models</keyword>
+      <keyword>performance benchamark</keyword>
+    </keywords>
+  </dataset-info>
+  
+  <origin>
+    <creator>
+      <name>Rensselaer Polytechnic Institute</name>
+      <abbreviation>RPI</abbreviation>
+    </creator>
+    <creation-date>2024-10-13</creation-date>
+    <collection-method>Web scraping and manual data entering</collection-method>
+    <instrument>None</instrument>
+  </origin>
+  
+  <temporal-coverage>
+    <start-date>2024-09-01</start-date>
+    <end-date>2024-10-03</end-date>
+    <temporal-resolution>Single time data collection</temporal-resolution>
+  </temporal-coverage>
+  
+  <spatial-coverage>
+    <geographic-extent></geographic-extent>
+    <spatial-resolution></spatial-resolution>
+  </spatial-coverage>
+  
+  <significance>
+    <scientific-importance>
+        The goal of the dataset was to analyze and understand the performance variations of large language models (LLMs) in the medical domain, 
+        specifically focusing on the effect of model architecture and training data on performance metrics such as reliability and inference time. 
+        This would allow for a detailed comparison of competing medical LLMs, helping researchers make informed decisions regarding model selection based on the trade-offs between speed, accuracy, and scalability.
+    </scientific-importance>
+    <applications>
+      <application>LVLM developement</application>
+      <application>Medical Question answering</application>
+    </applications>
+  </significance>
+  
+  <data-quality>
+    <accuracy>±0.1°C</accuracy>
+    <validation-method>Manual validatation with data sources</validation-method>
+  </data-quality>
+  
+  <access-info>
+    <license>Creative Commons Attribution 4.0 International (CC BY 4.0)</license>
+    <access-constraints>None, open access dataset</access-constraints>
+    <data-format>HDFS5</data-format>
+  </access-info>
+</descriptive-metadata>
