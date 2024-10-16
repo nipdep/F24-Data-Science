@@ -1,0 +1,18 @@
+manifest_version: "v1"
+
+source: "manual collection"
+
+# The UCDM version number this dataset's format corresponds to.
+data_schema: "1.0"
+
+# The ISO 8601 datetime stamp describing when the dataset was produced.
+# The timezone must be UTC.
+datetime: "2024-10-13T15:30:00-0000"
+
+# A UUID for the dataset
+dump_id: "a1b2c3d4-5e6f-7g8h-9i10-j11k12l13m14"
+
+# An array of the files included in the dataset.
+# For each file, an MD5 checksum is provided.
+files:
+  - sea_surface_temperature: "9c9e18230ff048f2837889f41e1faba2"

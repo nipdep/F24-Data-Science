@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descriptive-metadata xmlns:xsi="https://www.w3.org/TR/xmlschema-1/"
+                      xsi:noNamespaceSchemaLocation="descriptive-metadata-schema.xsd">
+  <dataset-info>
+    <title>RPI foot traffic dataset</title>
+    <identifier>http://foot_traffic_data.com/data/8713422</identifier>
+    <description>RPI foot traffic dataset.</description>
+    <keywords>
+      <keyword>foot traffic</keyword>
+    </keywords>
+  </dataset-info>
+  
+  <origin>
+    <creator>
+      <name>Rensselaer Polytechnic Institute</name>
+      <abbreviation>RPI</abbreviation>
+    </creator>
+    <creation-date>2024-10-14</creation-date>
+    <collection-method>Collection</collection-method>
+    <instrument>None</instrument>
+  </origin>
+  
+  <temporal-coverage>
+    <start-date>2024-09-01</start-date>
+    <end-date>2024-10-03</end-date>
+    <temporal-resolution>Twice a day</temporal-resolution>
+  </temporal-coverage>
+  
+  <spatial-coverage>
+    <geographic-extent>RPI university boundary</geographic-extent>
+    <spatial-resolution></spatial-resolution>
+  </spatial-coverage>
+  
+  <significance>
+    <scientific-importance>
+      This dataset captures foot traffic data across various locations within Rensselaer Polytechnic Institute (RPI) University, manually collected by a single investigator. 
+      The investigator recorded foot traffic at key entry points around campus buildings, pathways, and common areas through direct observation.
+    </scientific-importance>
+    <applications>
+      <application>traffic analysis and monitoring</application>
+    </applications>
+  </significance>
+  
+  <data-quality>
+    <accuracy>1</accuracy>
+    <validation-method>No validation</validation-method>
+  </data-quality>
+  
+  <access-info>
+    <license>Creative Commons Attribution 4.0 International (CC BY 4.0)</license>
+    <access-constraints>None, open access dataset</access-constraints>
+    <data-format>HDFS5</data-format>
+  </access-info>
+</descriptive-metadata>
